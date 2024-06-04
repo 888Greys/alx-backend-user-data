@@ -64,10 +64,10 @@ class Auth:
         return header
 
     def current_user(self, request=None) -> TypeVar('User'):
-        """_summary_ 
+        """_summary_
 
-        Args:   
-                request (_type_, optional): _description_. Defaults to None.
+        Args:
+                                        request (_type_, optional): _description_. Defaults to None.
         """
 
         return None

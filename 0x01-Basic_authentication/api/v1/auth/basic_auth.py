@@ -16,8 +16,8 @@ from models.user import User
 class BasicAuth(Auth):
     """_summary_
 
-    Args:   
-            Auth (_type_): _description_
+    Args:
+                            Auth (_type_): _description_
     """
 
     def extract_base64_authorization_header(self,
@@ -105,8 +105,8 @@ class BasicAuth(Auth):
     def current_user(self, request=None) -> TypeVar('User'):
         """_summary_
 
-        Args:   
-                request (_type_, optional): _description_. Defaults to None.
+        Args:
+                                        request (_type_, optional): _description_. Defaults to None.
         """
         auth_header = self.authorization_header(request)
         if auth_header is not None:
