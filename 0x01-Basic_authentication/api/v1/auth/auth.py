@@ -67,7 +67,7 @@ class Auth:
         """_summary_
 
         Args:
-                                        request (_type_, optional): _description_. Defaults to None.
+        request (_type_, optional): _description_. Defaults to None.
         """
 
         return None

@@ -106,7 +106,7 @@ class BasicAuth(Auth):
         """_summary_
 
         Args:
-                                        request (_type_, optional): _description_. Defaults to None.
+        request (_type_, optional): _description_. Defaults to None.
         """
         auth_header = self.authorization_header(request)
         if auth_header is not None:
