@@ -74,7 +74,6 @@ def unauthorized(error) -> str:
 @app.errorhandler(403)
 def forbidden(error) -> str:
     """_summary_
-
     Args:
             error (_type_): _description_
 
