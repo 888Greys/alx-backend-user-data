@@ -28,6 +28,7 @@ AUTH = Auth()
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET'])
 def index() -> str:
     """
@@ -45,7 +46,7 @@ def users() -> str:
     Registers a new user.
 
     Returns:
-        str: JSON response with the user's email and a success 
+        str: JSON response with the user's email and a success
         message.
     """
     email = request.form.get('email')
