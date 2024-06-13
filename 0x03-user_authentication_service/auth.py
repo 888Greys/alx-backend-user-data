@@ -65,7 +65,6 @@ class Auth:
         Returns:
             Union[None, User]: The registered User object if successful,
             None otherwise.
-        
         Raises:
             ValueError: If the user with the given email already exists.
         """
@@ -168,7 +167,8 @@ class Auth:
             return user.reset_token
 
     def update_password(self, reset_token: str, password: str) -> None:
-        """Updates the password of the user with the given reset password token.
+        """Updates the password of the user with the given reset
+        password token.
 
         Args:
             reset_token (str): The reset password token.
