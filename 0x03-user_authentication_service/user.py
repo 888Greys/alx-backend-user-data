@@ -2,7 +2,8 @@
 """
 This module defines the User class for the user authentication service.
 
-The User class represents a user in the system and contains information such as their email,
+The User class represents a user in the system and
+contains information such as their email,
 hashed password, session ID, and reset token.
 
 Attributes:
